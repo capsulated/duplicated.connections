@@ -1,4 +1,4 @@
-# Foxed Microservice [demo for portfolio]
+# Foxed Microservice
 
 Service that compares duplicates in users connections
 
