@@ -26,7 +26,7 @@ dep ensure
 
 ```
 docker run -p9088:9088 -p6534:6534 -it reindexer/reindexer
-go run cmd/service
+go run cmd/service.go
 ```
 ## Running the tests
 
