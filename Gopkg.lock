@@ -105,6 +105,21 @@
   version = "v1.4.2"
 
 [[projects]]
+  digest = "1:fcfe8928201fda9e50131810d5748ca6005d1f1cd586ce0fbccf0f2f13e129ff"
+  name = "github.com/restream/reindexer"
+  packages = [
+    ".",
+    "bindings",
+    "bindings/builtinserver/config",
+    "bindings/cproto",
+    "cjson",
+    "dsl",
+  ]
+  pruneopts = "UT"
+  revision = "649cd025d673235c9ea0b504f153ad376bedbc1d"
+  version = "v1.10.1"
+
+[[projects]]
   digest = "1:c468422f334a6b46a19448ad59aaffdfc0a36b08fdcc1c749a0b29b6453d7e59"
   name = "github.com/valyala/bytebufferpool"
   packages = ["."]
@@ -134,15 +149,15 @@
     "html/charset",
   ]
   pruneopts = "UT"
-  revision = "10aee181995363b41f712a55844a0dd52ea04646"
+  revision = "03003ca0c849e57b6ea29a4bab8d3cb6e4d568fe"
 
 [[projects]]
   branch = "master"
-  digest = "1:e2503f590982f6c0cc06abd7b94b17ded6804bada8eb79af753b5fb676dfdecc"
+  digest = "1:7ba061af4131fb44b30448572acd0d6fefbf63a61b97b7ef1dea0be5871c2742"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "3a76605856fddce5718553cbb8bd50ca492a7274"
+  revision = "66b7b1311ac80bbafcd2daeef9a5e6e2cd1e2399"
 
 [[projects]]
   digest = "1:aa4d6967a3237f8367b6bf91503964a77183ecf696f1273e8ad3551bb4412b5f"
@@ -204,7 +219,6 @@
     "github.com/onsi/ginkgo",
     "github.com/onsi/gomega",
     "github.com/restream/reindexer",
-    "github.com/restream/reindexer/bindings/builtin",
     "github.com/valyala/fasthttp",
   ]
   solver-name = "gps-cdcl"

@@ -42,6 +42,10 @@
   version = "1.4.2"
 
 [[constraint]]
+  name = "github.com/restream/reindexer"
+  version = "1.10.1"
+
+[[constraint]]
   name = "github.com/valyala/fasthttp"
   version = "20180529.0.0"
 
