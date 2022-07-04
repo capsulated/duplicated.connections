@@ -1,4 +1,4 @@
-# Foxed Microservice
+# Duplicated Connections Checker
 
 Service that compares duplicates in users connections
 
